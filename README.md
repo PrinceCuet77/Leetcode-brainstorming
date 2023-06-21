@@ -4,4 +4,4 @@
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
-| 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | <a href="leetcode/00001_two-sum/1-two-sum.cpp"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a> | <span style="color:green">Easy</span> |
+| 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | <a href="Easy/Array/01920_build-array-from-permutation/README.md"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20" height="20"></a> | <span style="color:green">Easy</span> |
