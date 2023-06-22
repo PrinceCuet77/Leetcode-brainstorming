@@ -1,6 +1,6 @@
 # Leetcode
 
-**Problem Solved: 2** (<span style="color:green">Easy: 1</span>, <span style="color:orange">Medium: 1</span>, <span style="color:red">Hard: 0</span>)
+**Problem Solved: 1** (<span style="color:green">Easy: 1</span>, <span style="color:orange">Medium: 0</span>, <span style="color:red">Hard: 0</span>)
 
 | # | Title | Solutions | Difficulty |
 | - | - | - | - |
