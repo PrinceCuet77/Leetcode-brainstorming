@@ -1,4 +1,4 @@
-Problem Name: [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+Problem Name: [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)
 
 Difficulty: `Easy`
 

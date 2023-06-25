@@ -1,4 +1,4 @@
-Problem Name: [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+Problem Name: [Concantenation of Array](https://leetcode.com/problems/concatenation-of-array/)
 
 Difficulty: `Easy`
 

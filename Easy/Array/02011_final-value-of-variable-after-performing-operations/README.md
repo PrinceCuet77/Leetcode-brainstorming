@@ -1,4 +1,4 @@
-Problem Name: [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+Problem Name: [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 
 Difficulty: `Easy`
 
