@@ -21,7 +21,7 @@ public:
 
 Javascript:
 
-```cpp
+```js
 /**
  * @param {number[]} nums
  * @return {number[]}
