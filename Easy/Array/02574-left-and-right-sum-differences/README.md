@@ -1,6 +1,6 @@
 Problem Name: [ Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)
 
-Problem No: 2574
+Problem #2574
 
 Difficulty: `Easy`
 

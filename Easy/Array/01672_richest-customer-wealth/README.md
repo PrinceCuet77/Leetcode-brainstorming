@@ -1,5 +1,7 @@
 Problem Name: [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
+Problem #1672
+
 Difficulty: `Easy`
 
 Cpp:
