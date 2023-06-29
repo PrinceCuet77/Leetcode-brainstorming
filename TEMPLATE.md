@@ -9,9 +9,3 @@ Cpp:
 ```cpp
 
 ```
-
-Javascript:
-
-```js
-
-```
