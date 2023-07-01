@@ -10,7 +10,7 @@ Cpp:
 class Solution {
 public:
   string firstPalindrome(vector<string>& words) {
-    string result;
+    string result = "";
 
     for ( auto word : words ) {
       int n = word.size();
