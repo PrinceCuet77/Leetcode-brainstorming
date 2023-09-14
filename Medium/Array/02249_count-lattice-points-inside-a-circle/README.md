@@ -11,14 +11,14 @@ class Solution {
 public:
   int countLatticePoints(vector<vector<int>>& circles) {
     int count = 0;
-    map < pair < int, int >, int > mp;
+    set < pair < int , int > > st;
     for ( auto circle : circles ) {
       int x = circle[0], y = circle[1], r = circle[2];
       for ( int i = x - r; i <= x + r; i++ ) {
         for ( int j = y - r; j <= y + r; j++ ) {
-          if ( mp[{i, j}] == 0 ) {
+          if ( st.find({i, j}) == st.end() ) {
             if ( insideACircle(i, j, x, y, r) ) {
-              mp[{i, j}]++;
+              st.insert({i, j});
               count++;
             }
           }
@@ -35,4 +35,5 @@ public:
     return d <= r * r ? true : false;
   }
 };
+
 ```
