@@ -1,4 +1,4 @@
-Problem Name: [](https://leetcode.com/problems/goal-parser-interpretation/)
+Problem Name: [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)
 
 Problem #1678
 
