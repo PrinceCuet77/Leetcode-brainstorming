@@ -1,6 +1,6 @@
 # Leetcode
 
-**Problem Solved: 7** (Easy: 7, Medium: 0, Hard: 0)
+**Problem Solved: 249** (Easy: 219, Medium: 30, Hard: 0)
 
 | # | Title | Solutions | Difficulty | Problem |
 | - | - | - | - | - |
