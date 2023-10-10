@@ -22,3 +22,20 @@ public:
   }
 };
 ```
+
+But I can solve it using `string` which provides almost similar features like `vector`. It's more efficient than previous method.
+
+```cpp
+class Solution {
+public:
+  string removeDuplicates(string s) {
+    string result = "";
+    for ( char ch : s ) {
+      if ( result.empty() || result.back() != ch ) result.push_back(ch);
+      else result.pop_back();
+    }
+
+    return result;
+  }
+};
+```
