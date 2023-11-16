@@ -2,7 +2,7 @@ Problem Name: [Sort Vowels in a String](https://leetcode.com/problems/sort-vowel
 
 Problem #2785
 
-Difficulty: `Easy`
+Difficulty: `Medium`
 
 Cpp:
 

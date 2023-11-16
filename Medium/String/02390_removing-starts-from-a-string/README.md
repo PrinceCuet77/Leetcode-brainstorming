@@ -2,7 +2,7 @@ Problem Name: [Removing Stars From a String](https://leetcode.com/problems/remov
 
 Problem #2390
 
-Difficulty: `Easy`
+Difficulty: `Medium`
 
 Cpp:
 

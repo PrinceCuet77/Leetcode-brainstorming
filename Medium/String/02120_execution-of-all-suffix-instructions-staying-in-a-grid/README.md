@@ -2,7 +2,7 @@ Problem Name: [Execution of All Suffix Instructions Staying in a Grid](https://l
 
 Problem #2120
 
-Difficulty: `Easy`
+Difficulty: `Medium`
 
 Cpp:
 
