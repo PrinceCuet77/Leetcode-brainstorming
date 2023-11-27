@@ -2,7 +2,7 @@ Problem Name: [Minimum Number of Steps to Make Two Strings Anagram](https://leet
 
 Problem #1347
 
-Difficulty: `Easy`
+Difficulty: `Medium`
 
 Cpp:
 
