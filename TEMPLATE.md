@@ -6,12 +6,14 @@ Tag: `Array`
 
 Difficulty: `Easy`
 
-Note:
-
-- A
-
 Cpp:
 
 ```cpp
 
 ```
+
+<details>
+  <summary>Note</summary>
+  <li>Store <code>k-th</code> column</li>
+  <li>Store another <code>vector</code></li>
+</details>
