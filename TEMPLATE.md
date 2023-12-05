@@ -6,7 +6,7 @@ Tag: `Array`
 
 Difficulty: `Easy`
 
-Cpp:
+## Cpp
 
 ```cpp
 

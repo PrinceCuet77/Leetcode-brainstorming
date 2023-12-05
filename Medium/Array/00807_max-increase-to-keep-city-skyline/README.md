@@ -6,12 +6,6 @@ Tag: `Array` `Greedy` `Matrix`
 
 Difficulty: `Medium`
 
-## Note
-
-- Find max of columns & rows
-- Find difference between original value & min of column & row
-- Sum the difference
-
 ## Cpp
 
 ```cpp
@@ -37,3 +31,10 @@ public:
   }
 };
 ```
+
+<details>
+  <summary>Note</summary>
+  <li>Find max of columns & rows</li>
+  <li>Find difference between original value & min of column & row</li>
+  <li>Sum the difference</li>
+</details>
