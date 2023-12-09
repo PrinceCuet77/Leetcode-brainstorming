@@ -4,7 +4,7 @@ Problem #2610
 
 Tag: `Array` `Hash Table`
 
-Difficulty: `Easy`
+Difficulty: `Medium`
 
 ## Cpp
 
