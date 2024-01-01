@@ -27,14 +27,14 @@ public:
     ListNode *present = head;
     for ( ListNode* current = head; current != nullptr; current = current->next->next ) {
       if ( lead ) {
-        ListNode *temp = new ListNode(present->val);
-        temp->next = lead;
-        lead = temp;
+        ListNode *temp = present->next;
+        present->next = lead;
+        lead = present;
+        present = temp;
       } else {
         lead = present;
+        present = present->next;
       }
-
-      present = present->next;
     }
 
     int twinSum = 0;
@@ -54,6 +54,6 @@ public:
 <details>
   <summary>Note</summary>
   <li>Find the middle node using <code>tortoise rabbit method</code></li>
-  <li>Reverse from middle to <code>head</code> node</li>
+  <li>Reverse from middle to <code>head</code> node while finding middle node</li>
   <li>Compare reversed & rest linked list and mind the maximum twin sum</li>
 </details>
