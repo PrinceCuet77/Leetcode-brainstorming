@@ -19,7 +19,8 @@ Difficulty: `Easy`
 </details>
 
 
-Problem Name: Delete the Middle Node of a Linked List
-Problem No:   2095
-Tag:          Linked List
-Difficulty:   Medium
+Commit Message:
+
+```cmd
+problem-no problem-name (tag - difficulty)
+```
