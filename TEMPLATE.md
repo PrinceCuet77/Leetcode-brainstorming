@@ -17,10 +17,3 @@ Difficulty: `Easy`
   <li>Store <code>k-th</code> column</li>
   <li>Store another <code>vector</code></li>
 </details>
-
-
-Commit Message:
-
-```cmd
-problem-no problem-name (tag - difficulty)
-```
