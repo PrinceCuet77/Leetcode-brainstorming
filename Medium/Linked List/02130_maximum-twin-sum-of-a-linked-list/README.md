@@ -22,9 +22,7 @@ Difficulty: `Medium`
 class Solution {
 public:
   int pairSum(ListNode* head) {
-    ListNode *lead = nullptr;
-
-    ListNode *present = head;
+    ListNode *lead = nullptr, *present = head;
     for ( ListNode* current = head; current != nullptr; current = current->next->next ) {
       if ( lead ) {
         ListNode *temp = present->next;
