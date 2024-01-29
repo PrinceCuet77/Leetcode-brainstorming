@@ -28,11 +28,9 @@ class Solution {
     int l = find(root->left);
     int r = find(root->right);
 
-    int rootVal = root->val;
-    root->val = abs(l - r);
-    sum += root->val;
+    sum += abs(l - r);
 
-    return l + r + rootVal;
+    return l + r + root->val;
   }
   
 public:
@@ -45,5 +43,7 @@ public:
 
 <details>
   <summary>Note</summary>
-  <li></li>
+  <li>Use post-order traversal</li>
+  <li>Add <code>abs(l - r)</code> to the <code>sum</code> for every node</li>
+  <li>For every node, return <code>l + r + root->val</code></li>
 </details>
