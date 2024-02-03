@@ -12,23 +12,34 @@ Difficulty: `Easy`
 
 ```
 
-<details>
-  <summary>Note</summary>
-  <li>Store <code>k-th</code> column</li>
-  <li>Store another <code>vector</code></li>
-</details>
+[<details><summary>Note</summary><li>Store <code>k-th</code> column</li><li>Store another <code>vector</code></li></details>]: #
 
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> <details>
+>   <li>Store <code>k-th</code> column</li>
+>   <li>Store another <code>vector</code></li>
+> </details>
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> <details>
+>   <li>Store <code>k-th</code> column</li>
+>   <li>Store another <code>vector</code></li>
+> </details>
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> <details>
+>   <li>Store <code>k-th</code> column</li>
+>   <li>Store another <code>vector</code></li>
+> </details>
 
 > [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> <details>
+>   <li>Store <code>k-th</code> column</li>
+>   <li>Store another <code>vector</code></li>
+> </details>
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+> <details>
+>   <li>Store <code>k-th</code> column</li>
+>   <li>Store another <code>vector</code></li>
+> </details>
