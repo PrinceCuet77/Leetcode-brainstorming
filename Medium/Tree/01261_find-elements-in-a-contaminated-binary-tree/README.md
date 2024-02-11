@@ -4,7 +4,7 @@ Problem #1261
 
 Tag: `Tree` `Depth-First Search` `Breadth-First Search` `Binary Tree` `Hash Table` `Design`
 
-Difficulty: `Easy`
+Difficulty: `Medium`
 
 ## Cpp
 
