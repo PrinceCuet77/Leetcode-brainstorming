@@ -1,6 +1,6 @@
-Problem Name: [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/)
+Problem Name: [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)
 
-Problem #1038
+Problem #538
 
 Tag: `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree`
 
@@ -21,23 +21,25 @@ Difficulty: `Medium`
  * };
  */
 class Solution {
-  vector < TreeNode* > store;
+  stack < TreeNode* > st;
   void inorder(TreeNode *root) {
     if ( root == nullptr ) return;
 
     inorder(root->left);
-    store.push_back(root);
+    st.push(root);
     inorder(root->right);
   }
-
 public:
-  TreeNode* bstToGst(TreeNode* root) {
+  TreeNode* convertBST(TreeNode* root) {
     inorder(root);
 
-    int total = store[store.size() - 1]->val;
-    for ( int i = store.size() - 2; i >= 0; i-- ) {
-      total += store[i]->val;
-      store[i]->val = total;
+    int sum = 0;
+    while ( !st.empty() ) {
+      TreeNode *head = st.top();
+      st.pop();
+
+      sum += head->val;
+      head->val = sum;
     }
 
     return root;
@@ -48,6 +50,6 @@ public:
 > [!NOTE]
 >
 > <details>
->   <li>Use inorder traversal & store the nodes in <code>vector</code></li>
->   <li>Traverse the vector backword & re-store the value so far summation in the specific node</li>
+>   <li>Use inorder traversal & store the nodes in <code>stack</code></li>
+>   <li>Remove element from the top and add the summation to that node til empty</li>
 > </details>
